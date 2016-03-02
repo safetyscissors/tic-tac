@@ -1,0 +1,65 @@
+coffee count:4
+paper count:1
+
+<thought process
+ai-forum
+googled strongly solved games
+googled tictactoe
+googled tictactoe gui
+googled code without comments
+
+<init coding
+spent a lot of time cleaning apache2. 
+if not default folder exists, loads first profile from site-enabled
+setup db TTT for HISTORY fields turn score boardstate
+
+<begin coding
+dwnld jquery.10.2. dev vs.
+problem. production minified REQUIRES map file not found through localhost
+
+<parent talking break
+
+changed board represenation from 0,1,-1 to 0,1,2 so each char has value. not o,x for database to index by int
+
+next time, will split up the js functions better
+
+//huffman encode the win conditions next time
+javascript switch is not necessarily faster than if/else
+break:label
+
+what is the minimum req where jquery is valuable
+javascript vars are casesensitive. ONE is different from one
+
+don't think i need a gameloop. its all user driven
+
+<teach parent emails
+
+inserting state gameinit
+
+<more problems with parent emails and mailing pictures to walgreens
+
+seems more like a straightforward one than an ai one.
+
+zindexing tiles to keep lines from being hidden
+
+changing colors js doesnt affect css
+
+game restart was being called twice in certain conditions.
+didnt solve. just set check to execute if NOT in a game.
+
+factoring in board rotations as permutations
+reduce db in exchange for more queries. assume that it will give better data though
+
+end state is getting called twice. must resolve.
+nextState called the main loop. in addition, player clicks call main loop.
+
+using mysqli objects. havent touched them since i started using a framework
+no real control over google fonts unless you use the js api which isnt supported on ios<4
+make sure to set loading screen as a default font-family so it shows up
+arbitrarily gave the load screen a delay. 
+it looks weird when the page is already cached but still loads the loadscreen.
+next time, maybe i should fade the menu in. then hide.
+
+should have programmed for gamemode from the beginning
+
+define terminology/variable names in planning
