@@ -15,4 +15,5 @@
 ## Todo
  - teach the learning ai to identify human misplays to discount the weighting of a specific move
  - teach the learning ai to predict the next human move
+ - coworkers screenshotted highscore after editing the value in the div. Have a loop reset the score to prevent it.
  
